@@ -6,24 +6,28 @@ public class ProgramStartWithParameters {
     }
 
     // Create method printMessage
+    public static void printMessage(String message) {
+        System.out.println(message);
+
+    }
 
     public static void startProgram() {
-        System.out.println("Programmet starter...");
+        printMessage("Programmet starter...");
         printWelcomeMessage();
         loadData();
         printReadyMessage();
     }
 
     public static void printWelcomeMessage() {
-        System.out.println("Velkommen til mit program!");
+        printMessage("Velkommen til mit program!");
     }
 
     public static void loadData() {
-        System.out.println("Indlæser data...");
-        System.out.println("Data er blevet læst!");
+        printMessage("Indlæser data...");
+        printMessage("Data er blevet læst!");
     }
 
     public static void printReadyMessage() {
-        System.out.println("Programmet er klar til brug!");
+        printMessage("Programmet er klar til brug!");
     }
 }
