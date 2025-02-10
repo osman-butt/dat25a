@@ -12,22 +12,14 @@ public class ShortHandSwitch {
 
         // TODO: Update to use shorthand switch
         switch (choice) {
-            case 0:
-                System.out.println("Balance: 100" );
-                break;
-            case 1:
-                System.out.println("Money withdrawn!");
-                break;
-            case 2:
-                System.out.println("Money deposited!");
-                break;
-            case 3:
+            case 0 -> System.out.println("Balance: 100" );
+            case 1 -> System.out.println("Money withdrawn!");
+            case 2 -> System.out.println("Money deposited!");
+            case 3 -> {
                 System.out.println("See you next time :)");
                 System.out.println("Exiting ...");
-                return;
-            default:
-                System.out.println("Unknown choice");
-                break;
+            }
+            default -> System.out.println("Unknown choice");
         }
         scanner.close();
     }

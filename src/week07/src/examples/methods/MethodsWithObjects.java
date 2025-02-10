@@ -7,11 +7,14 @@ public class MethodsWithObjects {
         // Create scanner object
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Hvad er dit navn? ");
-        String name = scanner.nextLine();
+//        System.out.println("Hvad er dit navn? ");
+//        String name = scanner.nextLine();
+        String name = getName(scanner);
 
-        System.out.println("Hvor gammel er du? ");
-        int age = scanner.nextInt();
+//        System.out.println("Hvor gammel er du? ");
+//        int age = scanner.nextInt();
+
+        int age = getAge(scanner);
 
         System.out.println("Hej " + name + "! Du er " + age + " år gammel.");
 
@@ -21,6 +24,15 @@ public class MethodsWithObjects {
         scanner.close();
     }
     // Create getName method
+    public static String getName(Scanner sc) {
+        System.out.println("Hvad er dit navn? ");
+        return sc.nextLine();
+    }
     // Create getAge method
+    public static int getAge(Scanner sc) {
+        System.out.println("Hvor gammel er du? ");
+        return sc.nextInt();
+    }
+
     // Create printGreeting
 }
