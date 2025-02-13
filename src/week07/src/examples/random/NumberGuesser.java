@@ -23,6 +23,10 @@ public class NumberGuesser {
         boolean isRunning = true;
 
         while (isRunning) {
+            // If no attempts left, the gameover
+            if (attemptsLeft==0) {
+                break;
+            }
             // Game loop: keep guessing until correct or attempts run out
             // Prompt the user to enter a guess
 //            System.out.println("Indtast et tal ml 1-100");
