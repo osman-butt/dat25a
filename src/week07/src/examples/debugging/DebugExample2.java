@@ -17,6 +17,6 @@ public class DebugExample2 {
     }
 
     public static boolean isNumeric(char ch) {
-        return (ch>=0 && ch<=9);
+        return (ch>='0' && ch<='9');
     }
 }
