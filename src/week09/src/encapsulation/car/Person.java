@@ -1,4 +1,4 @@
-package encapsulation.Car;
+package encapsulation.car;
 
 public class Person {
     private String firstName;

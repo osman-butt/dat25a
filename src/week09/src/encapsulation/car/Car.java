@@ -1,4 +1,4 @@
-package encapsulation.Car;
+package encapsulation.car;
 
 public class Car {
     private String brand;
