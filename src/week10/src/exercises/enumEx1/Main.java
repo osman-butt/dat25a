@@ -14,9 +14,6 @@ public class Main {
             case 2 -> System.out.println("Du har valgt farven " + Colors.GRØN);
             case 3 -> System.out.println("Du har valgt farven " + Colors.BLÅ);
             default -> System.out.println("Ugyldigt valg");
-            }
         }
-
-
     }
 }

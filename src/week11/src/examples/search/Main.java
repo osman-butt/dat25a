@@ -25,6 +25,5 @@ public class Main {
 
         Collections.sort(persons);
         System.out.println(persons);
-
     }
 }

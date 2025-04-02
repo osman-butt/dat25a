@@ -12,4 +12,8 @@ public class Payment {
     public boolean isCompleted() {
         return status == PaymentStatus.COMPLETED;
     }
+
+    public PaymentStatus getStatus() {
+        return status;
+    }
 }
