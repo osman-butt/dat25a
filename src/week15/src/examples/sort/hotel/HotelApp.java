@@ -1,4 +1,4 @@
-package examples.hotel;
+package examples.sort.hotel;
 
 import java.util.ArrayList;
 import java.util.Collections;

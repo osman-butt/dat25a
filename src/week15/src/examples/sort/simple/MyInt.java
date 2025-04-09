@@ -1,4 +1,4 @@
-package examples.simple;
+package examples.sort.simple;
 
 public class MyInt implements Comparable<MyInt> {
     private int theInt;

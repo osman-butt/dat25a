@@ -1,4 +1,4 @@
-package examples.hotel;
+package examples.sort.hotel;
 
 public class Hotel implements Comparable<Hotel> {
     private String name;

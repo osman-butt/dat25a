@@ -1,7 +1,6 @@
-package examples.simple;
+package examples.sort.simple;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class Main {
