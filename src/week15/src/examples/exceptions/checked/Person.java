@@ -8,6 +8,7 @@ public class Person {
             throw new ParseException("Kunne ikke oprette objektet");
         }
         this.name = name;
+
     }
 
     public String getName() {
