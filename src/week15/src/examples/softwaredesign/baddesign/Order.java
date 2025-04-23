@@ -12,12 +12,17 @@ public class Order {
     public void addItem(OrderItem item) {
         items.add(item);
     }
+
+    public double getTotalPrice() {
+        double total = 0;
+        for (OrderItem item : items) {
+            total += item.getTotalPrice();
+        }
+        return total;
+    }
+
     public List<OrderItem> getItems() {
         return items;
     }
 
-    public void saveToDatabase() {
-        InMemoryDB repo = new InMemoryDB();
-        repo.saveOrder(this);
-    }
 }

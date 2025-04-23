@@ -17,6 +17,9 @@ public class OrderItem {
         return quantity;
     }
 
+    public double getTotalPrice() {
+        return product.getUnitPrice() * quantity;
+    }
     @Override
     public String toString() {
         return product + " x " + quantity;

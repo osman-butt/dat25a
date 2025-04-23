@@ -3,11 +3,12 @@ package examples.softwaredesign.baddesign;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InMemoryDB {
+public class InMemoryDB implements Repository {
 
     List<Order> orders = new ArrayList<>();
 
-    public void saveOrder(Order order) {
+    @Override
+    public void save(Order order) {
         System.out.println("Saving order...");
         orders.add(order);
         System.out.println();
@@ -16,4 +17,5 @@ public class InMemoryDB {
     public List<Order> getOrders() {
         return orders;
     }
+
 }
