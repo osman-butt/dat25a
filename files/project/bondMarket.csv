@@ -1,0 +1,6 @@
+ticker;name;price;currency;coupon_rate;issue_date;maturity_date;rating;market;last_updated
+DKST1Y;Dansk Stat 1Y;98,08;DKK;2,0;2025-01-01;2026-01-01;AAA;Nasdaq Copenhagen;2025-05-12
+DKST2Y;Dansk Stat 2Y;98,59;DKK;3,0;2025-01-01;2027-01-01;AAA;Nasdaq Copenhagen;2025-05-12
+DKST3Y;Dansk Stat 3Y;100,00;DKK;4,0;2025-01-01;2028-01-01;AAA;Nasdaq Copenhagen;2025-05-12
+DKST4Y;Dansk Stat 4Y;102,77;DKK;5,0;2025-01-01;2029-01-01;AAA;Nasdaq Copenhagen;2025-05-12
+DKST5Y;Dansk Stat 5Y;106,06;DKK;6,0;2025-01-01;2030-01-01;AAA;Nasdaq Copenhagen;2025-05-12
